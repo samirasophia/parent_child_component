@@ -1,0 +1,128 @@
+#root {
+  width: 100vw;
+  margin: 0 auto;
+  text-align: center;
+}
+ body {
+   background-color: #f5a6e9;
+ }
+.header-img {
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  width: 100vw;
+ /* padding: 350px;
+ */
+}
+.header-text {
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding: 300px;
+  margin: 20px;
+  text-align: center;
+}
+.header {
+  position:relative;
+  overflow:hidden;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: flex-start;
+  height:50vw;
+  min-height:400px;
+  max-height:550px;
+  min-width:300px;
+  color:#eee;
+  background-image: url("https://www.bgw-sg.com/wp-content/uploads/ezgif.com-gif-maker1.gif");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  font-size: 30px;
+}
+.header-small {
+  position:relative;
+  overflow:hidden;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  height:50vw;
+  min-height:100px;
+  max-height:100px;
+  min-width:400px;
+  background-color: black;
+  color: white;
+  text-decoration: underline;
+}
+.side-image-left {
+  justify-content:left;
+  align-content: space-around;
+  width: 70px;
+  height: 70px;
+}
+.side-image-right{
+  justify-content: right;
+  width: 70px;
+  height: 70px;
+}
+.column-unterseite {
+  position:relative;
+  overflow:hidden;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  align-content: center;
+  height:50vw;
+  min-width: 1px;
+  color: white;
+  text-decoration: underline;
+}
+.column {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  height:50vw;
+  height:1250px;
+  width: 25%;
+}
+.bg-img-steckbrief {
+  background-image: url(https://i.pinimg.com/736x/9f/42/99/9f4299ed3448b494c48a5d4fa1795876.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.bg-img-hobbies {
+  background-image: url(https://images3.alphacoders.com/133/thumb-1920-1338175.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.bg-img-leistungen{
+  background-image: url(images/Leistungen.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.bg-img-kontakt {
+  background-image: url(https://i.pinimg.com/736x/40/dc/6c/40dc6c6cf3ce26d8a490812b6a5d3c4f.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.button:hover {
+  font-family: "Serif";
+  cursor: pointer;
+  transform: scale(1.01);
+}
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+
